@@ -12,7 +12,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out source code...'
-                checkout scm
+                // Clone the GitHub repository
+                git branch: 'main', url: 'https://github.com/dilleshwar-17/DevOps_F.git'
             }
         }
 
