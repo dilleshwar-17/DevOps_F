@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  tevra-cars:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/usr/share/nginx/html
+    environment:
+      - NGINX_PORT=80
+    restart: unless-stopped
+
+  # Optional: Add a reverse proxy if needed
+  # nginx-proxy:
+  #   image: nginx:alpine
+  #   ports:
+  #     - "80:80"
+  #   volumes:
+  #     - ./nginx-proxy.conf:/etc/nginx/nginx.conf
+  #   depends_on:
+  #     - tevra-cars

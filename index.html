@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tevra - Premium Cars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>TEVRA</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Premium Luxury Cars</h2>
+                <p>Experience the finest collection of premium vehicles</p>
+                <button class="cta-btn">Explore Collection</button>
+            </div>
+        </section>
+
+        <section id="cars" class="cars-section">
+            <h2>Our Premium Collection</h2>
+            <div class="filter-bar">
+                <input type="text" id="searchInput" placeholder="Search cars...">
+                <select id="priceFilter">
+                    <option value="all">All Prices</option>
+                    <option value="low">Under $100k</option>
+                    <option value="medium">$100k - $200k</option>
+                    <option value="high">$200k+</option>
+                </select>
+            </div>
+            <div class="cars-grid" id="carsGrid">
+                <!-- Cars will be loaded dynamically from XML -->
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>About Tevra</h2>
+            <p>Tevra is your premier destination for luxury automobiles. We curate the finest selection of premium vehicles from the world's most prestigious manufacturers.</p>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p>📧 info@tevra.com</p>
+                <p>📞 +91 123-4567-890</p>
+                <p>📍 123 Luxury Lane, Premium City</p>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tevra Premium Cars. All rights reserved.</p>
+    </footer>
+
+    <div id="carModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-header">
+                    <h2 id="modalTitle"></h2>
+                    <p class="modal-price" id="modalPrice"></p>
+                </div>
+                <div class="specs">
+                    <h3>Specifications</h3>
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <span class="spec-label">Engine:</span>
+                            <span id="modalEngine"></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Horsepower:</span>
+                            <span id="modalHorsepower"></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">0-60 mph:</span>
+                            <span id="modalAcceleration"></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Drivetrain:</span>
+                            <span id="modalDrivetrain"></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Fuel Type:</span>
+                            <span id="modalFuelType"></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Transmission:</span>
+                            <span id="modalTransmission"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-description">
+                    <h3>Description</h3>
+                    <p id="modalDesc"></p>
+                </div>
+                <button class="contact-btn">Contact Sales</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="currency.js"></script>
+</body>
+</html>

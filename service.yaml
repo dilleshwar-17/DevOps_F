@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: tevra-cars-service
+  labels:
+    app: tevra-cars
+spec:
+  selector:
+    app: tevra-cars
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+  type: LoadBalancer  # Use LoadBalancer for cloud environments, ClusterIP for internal access

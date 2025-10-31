@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+    <car id="1">
+        <name>Rolls Royce Phantom</name>
+        <price>460000</price>
+        <brand>Rolls Royce</brand>
+        <engine>6.75L V12</engine>
+        <horsepower>563</horsepower>
+        <acceleration>5.1</acceleration>
+        <drivetrain>AWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>8-Speed Automatic</transmission>
+        <description>The pinnacle of luxury motoring with hand-crafted excellence and unparalleled comfort.</description>
+    </car>
+    <car id="2">
+        <name>Bentley Continental GT</name>
+        <price>230000</price>
+        <brand>Bentley</brand>
+        <engine>6.0L W12</engine>
+        <horsepower>626</horsepower>
+        <acceleration>3.6</acceleration>
+        <drivetrain>AWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>8-Speed Automatic</transmission>
+        <description>British luxury meets performance in this grand tourer with exquisite craftsmanship.</description>
+    </car>
+    <car id="3">
+        <name>Ferrari SF90 Stradale</name>
+        <price>625000</price>
+        <brand>Ferrari</brand>
+        <engine>4.0L V8 Hybrid</engine>
+        <horsepower>986</horsepower>
+        <acceleration>2.5</acceleration>
+        <drivetrain>AWD</drivetrain>
+        <fuelType>Hybrid</fuelType>
+        <transmission>8-Speed Automatic</transmission>
+        <description>Ferrari's most powerful production car with revolutionary hybrid technology.</description>
+    </car>
+    <car id="4">
+        <name>Lamborghini Aventador SVJ</name>
+        <price>573000</price>
+        <brand>Lamborghini</brand>
+        <engine>6.5L V12</engine>
+        <horsepower>759</horsepower>
+        <acceleration>2.8</acceleration>
+        <drivetrain>AWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>7-Speed Automatic</transmission>
+        <description>The ultimate expression of Lamborghini's naturally aspirated V12 legacy.</description>
+    </car>
+    <car id="5">
+        <name>McLaren 765LT</name>
+        <price>382500</price>
+        <brand>McLaren</brand>
+        <engine>4.0L V8 Twin-Turbo</engine>
+        <horsepower>754</horsepower>
+        <acceleration>2.7</acceleration>
+        <drivetrain>RWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>7-Speed Automatic</transmission>
+        <description>Track-focused supercar with Formula 1 derived aerodynamics and technology.</description>
+    </car>
+    <car id="6">
+        <name>Porsche 911 GT3 RS</name>
+        <price>223800</price>
+        <brand>Porsche</brand>
+        <engine>4.0L Flat-6</engine>
+        <horsepower>518</horsepower>
+        <acceleration>3.2</acceleration>
+        <drivetrain>RWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>7-Speed PDK</transmission>
+        <description>The most track-focused 911 with motorsport-derived engineering excellence.</description>
+    </car>
+    <car id="7">
+        <name>Aston Martin DBS Superleggera</name>
+        <price>316300</price>
+        <brand>Aston Martin</brand>
+        <engine>5.2L V12 Twin-Turbo</engine>
+        <horsepower>715</horsepower>
+        <acceleration>3.4</acceleration>
+        <drivetrain>RWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>8-Speed Automatic</transmission>
+        <description>British grand tourer combining brutal performance with elegant sophistication.</description>
+    </car>
+    <car id="8">
+        <name>Mercedes-AMG GT Black Series</name>
+        <price>335000</price>
+        <brand>Mercedes-AMG</brand>
+        <engine>4.0L V8 Twin-Turbo</engine>
+        <horsepower>720</horsepower>
+        <acceleration>3.2</acceleration>
+        <drivetrain>RWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>7-Speed Automatic</transmission>
+        <description>The most powerful AMG GT with race-bred technology and aerodynamics.</description>
+    </car>
+    <car id="9">
+        <name>BMW M8 Competition Coupe</name>
+        <price>135000</price>
+        <brand>BMW</brand>
+        <engine>4.4L V8 Twin-Turbo</engine>
+        <horsepower>617</horsepower>
+        <acceleration>3.2</acceleration>
+        <drivetrain>AWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>8-Speed Automatic</transmission>
+        <description>Bavarian precision engineering with track-focused performance and luxury.</description>
+    </car>
+    <car id="10">
+        <name>Audi R8 V10 Performance</name>
+        <price>208100</price>
+        <brand>Audi</brand>
+        <engine>5.2L V10</engine>
+        <horsepower>602</horsepower>
+        <acceleration>3.2</acceleration>
+        <drivetrain>AWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>7-Speed Automatic</transmission>
+        <description>German supercar with naturally aspirated V10 and Quattro all-wheel drive.</description>
+    </car>
+    <car id="11">
+        <name>Maserati MC20</name>
+        <price>210000</price>
+        <brand>Maserati</brand>
+        <engine>3.0L V6 Twin-Turbo</engine>
+        <horsepower>621</horsepower>
+        <acceleration>2.9</acceleration>
+        <drivetrain>RWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>8-Speed Automatic</transmission>
+        <description>Italian supercar marking Maserati's return to racing heritage and innovation.</description>
+    </car>
+    <car id="12">
+        <name>Jaguar F-Type SVR</name>
+        <price>125000</price>
+        <brand>Jaguar</brand>
+        <engine>5.0L V8 Supercharged</engine>
+        <horsepower>575</horsepower>
+        <acceleration>3.5</acceleration>
+        <drivetrain>AWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>8-Speed Automatic</transmission>
+        <description>British sports car with distinctive design and thunderous supercharged V8.</description>
+    </car>
+    <car id="13">
+        <name>Lexus LFA</name>
+        <price>375000</price>
+        <brand>Lexus</brand>
+        <engine>4.8L V10</engine>
+        <horsepower>552</horsepower>
+        <acceleration>3.6</acceleration>
+        <drivetrain>RWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>6-Speed Sequential</transmission>
+        <description>Limited production Japanese supercar with carbon fiber construction and F1 sound.</description>
+    </car>
+    <car id="14">
+        <name>Koenigsegg Regera</name>
+        <price>1900000</price>
+        <brand>Koenigsegg</brand>
+        <engine>5.0L V8 Hybrid</engine>
+        <horsepower>1500</horsepower>
+        <acceleration>2.8</acceleration>
+        <drivetrain>RWD</drivetrain>
+        <fuelType>Hybrid</fuelType>
+        <transmission>Direct Drive</transmission>
+        <description>Swedish hypercar with revolutionary direct-drive hybrid powertrain technology.</description>
+    </car>
+    <car id="15">
+        <name>Bugatti Chiron</name>
+        <price>3000000</price>
+        <brand>Bugatti</brand>
+        <engine>8.0L W16 Quad-Turbo</engine>
+        <horsepower>1479</horsepower>
+        <acceleration>2.4</acceleration>
+        <drivetrain>AWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>7-Speed Automatic</transmission>
+        <description>The ultimate expression of automotive luxury and performance engineering.</description>
+    </car>
+    <car id="16">
+        <name>Pagani Huayra BC</name>
+        <price>2800000</price>
+        <brand>Pagani</brand>
+        <engine>6.0L V12 Twin-Turbo</engine>
+        <horsepower>789</horsepower>
+        <acceleration>2.8</acceleration>
+        <drivetrain>RWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>7-Speed Sequential</transmission>
+        <description>Italian hypercar combining art, science, and extreme aerodynamic performance.</description>
+    </car>
+    <car id="17">
+        <name>Tesla Model S Plaid</name>
+        <price>130000</price>
+        <brand>Tesla</brand>
+        <engine>Electric Motors</engine>
+        <horsepower>1020</horsepower>
+        <acceleration>1.9</acceleration>
+        <drivetrain>AWD</drivetrain>
+        <fuelType>Electric</fuelType>
+        <transmission>Single-Speed</transmission>
+        <description>Electric luxury sedan with record-breaking acceleration and cutting-edge technology.</description>
+    </car>
+    <car id="18">
+        <name>Rimac Nevera</name>
+        <price>2400000</price>
+        <brand>Rimac</brand>
+        <engine>Electric Motors</engine>
+        <horsepower>1914</horsepower>
+        <acceleration>1.85</acceleration>
+        <drivetrain>AWD</drivetrain>
+        <fuelType>Electric</fuelType>
+        <transmission>Single-Speed</transmission>
+        <description>Croatian electric hypercar setting new standards for electric performance.</description>
+    </car>
+    <car id="19">
+        <name>Lotus Evija</name>
+        <price>2100000</price>
+        <brand>Lotus</brand>
+        <engine>Electric Motors</engine>
+        <horsepower>1972</horsepower>
+        <acceleration>2.9</acceleration>
+        <drivetrain>AWD</drivetrain>
+        <fuelType>Electric</fuelType>
+        <transmission>Single-Speed</transmission>
+        <description>British electric hypercar with revolutionary aerodynamics and lightweight construction.</description>
+    </car>
+    <car id="20">
+        <name>Gordon Murray T.50</name>
+        <price>2500000</price>
+        <brand>Gordon Murray</brand>
+        <engine>3.9L V12</engine>
+        <horsepower>654</horsepower>
+        <acceleration>3.4</acceleration>
+        <drivetrain>RWD</drivetrain>
+        <fuelType>Gasoline</fuelType>
+        <transmission>6-Speed Manual</transmission>
+        <description>The spiritual successor to the McLaren F1 with pure driving experience focus.</description>
+    </car>
+</cars>
