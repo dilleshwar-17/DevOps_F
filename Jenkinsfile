@@ -20,8 +20,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application...'
-                // For static site, build step might include minification or asset optimization
-                sh 'echo "Static site build completed"'
+                // Build with Maven to package static resources
+                sh 'mvn clean package'
             }
         }
 
@@ -85,8 +85,10 @@ pipeline {
 
     post {
         always {
-            echo 'Cleaning up Docker images...'
-            sh "docker rmi ${env.DOCKER_IMAGE}:${env.DOCKER_TAG} ${env.DOCKER_REGISTRY}/${env.DOCKER_IMAGE}:${env.DOCKER_TAG} || true"
+            script {
+                echo 'Cleaning up Docker images...'
+                sh "docker rmi ${env.DOCKER_IMAGE}:${env.DOCKER_TAG} ${env.DOCKER_REGISTRY}/${env.DOCKER_IMAGE}:${env.DOCKER_TAG} || true"
+            }
         }
         success {
             echo 'Pipeline completed successfully!'
